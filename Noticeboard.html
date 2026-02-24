@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Notice Board</title>
+    <style>
+        body {
+            font-family: sans-serif;
+            background: #eee;
+            padding: 20px;
+            color: #333;
+        }
+
+        h1 {
+            font-size: 1.5rem;
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+        /* Compact Grid */
+        .notice-container {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+            gap: 15px;
+            max-width: 900px;
+            margin: 0 auto;
+        }
+
+        /* Smaller, simpler cards */
+        .notice-card {
+            background: #fff;
+            padding: 15px;
+            border-left: 4px solid #2c3e50;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+
+        .notice-card h3 {
+            font-size: 1rem;
+            margin-bottom: 8px;
+            color: #2c3e50;
+        }
+
+        .notice-card p {
+            font-size: 0.85rem;
+            line-height: 1.4;
+            margin-bottom: 10px;
+        }
+
+        .date {
+            font-size: 0.75rem;
+            color: #888;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Campus Notices</h1>
+
+    <div class="notice-container">
+        <div class="notice-card">
+            <h3>Important</h3>
+            <p>Semester will be start soon so prepare well.</p>
+            <div class="date">Feb 10</div>
+        </div>
+
+        <div class="notice-card">
+            <h3>Mainly asked questions</h3>
+            <p>Fees should be paid in the admin block.</p>
+            <div class="date">Feb 11</div>
+        </div>
+
+        <div class="notice-card">
+            <h3>Mandatory Rule</h3>
+            <p>Id is required to enter in the college.</p>
+            <div class="date">Feb 12</div>
+        </div>
+
+        <div class="notice-card">
+            <h3>Upcoming Event</h3>
+            <p>Symposium will start on 20th Feb</p>
+            <div class="date">Feb 13</div>
+        </div>
+    </div>
+
+</body>
+</html>
