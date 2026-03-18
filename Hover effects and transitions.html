@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Hover Effects and Transitions</title>
+<style>
+body{
+font-family:"Times New Roman";
+background:beige;
+text-align:center;
+}
+button{
+padding:15px 30px;
+font-size:16px;
+background-color:#3498db;
+color:white;
+border:none;
+border-radius:8px;
+transition:0.5s;
+}
+button:hover{
+background-color:darkcyan;
+transform:scale(1.1);
+}
+img{
+width:250px;
+margin-top:25px;
+transition:0.5s;
+}
+img:hover{
+transform:rotate(5deg) scale(1.1);
+}
+.card{
+width:250px;
+margin:30px auto;
+padding:20px;
+background:white;
+border-radius:10px;
+box-shadow:0px 0px 10px gray;
+transition:0.4s;
+}
+.card:hover{
+transform:translateY(-10px);
+box-shadow:0px 10px 20px black;
+}
+</style>
+</head>
+<body>
+<h1>CSS Hover Effects & Transitions</h1>
+<button>Hover Me</button>
+<br>
+<img src="sample image.jpg" alt="Sample Image">
+<div class="card">
+<h3>Hover Card</h3>
+<p>This card moves upward when hovered.</p>
+</div>
+</body>
+</html>
