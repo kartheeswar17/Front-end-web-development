@@ -15,3 +15,5 @@ demo link for flexiblebox:https://github.com/kartheeswar17/Front-end-web-develop
 demo link for hover effects and transitions:https://github.com/kartheeswar17/Front-end-web-development/blob/main/Hover%20effects%20and%20transitions.html
 
 demo link for validation form:https://github.com/kartheeswar17/Front-end-web-development/blob/main/Validation%20Form.html
+
+demo link for javascript calculator:https://github.com/kartheeswar17/Front-end-web-development/blob/main/JavaScript%20Calculator.html
