@@ -19,3 +19,5 @@ demo link for validation form:https://github.com/kartheeswar17/Front-end-web-dev
 demo link for javascript calculator:https://github.com/kartheeswar17/Front-end-web-development/blob/main/JavaScript%20Calculator.html
 
 demo link for digital clock:https://github.com/kartheeswar17/Front-end-web-development/blob/main/Digital%20Clock.html
+
+demo link for todo list:https://github.com/kartheeswar17/Front-end-web-development/blob/main/ToDolist.html
