@@ -1,0 +1,80 @@
+<!DOCTYPE html> 
+<html> 
+<head> 
+<title>Image Slider</title> 
+ 
+<style> 
+ 
+body{ 
+    font-family:"Times New Roman"; 
+    text-align:center; 
+    background:#f2f2f2; 
+} 
+ 
+.slider{ 
+    width:500px; 
+    margin:50px auto; 
+    position:relative; 
+} 
+ 
+.slider img{ 
+    width:100%; 
+    height:300px; 
+    border-radius:10px; 
+} 
+ 
+button{ 
+    padding:10px 15px; 
+    margin:10px; 
+ 
+    font-size:16px; 
+    cursor:pointer; 
+} 
+ 
+</style> 
+ 
+<script> 
+ 
+let images=[ 
+"image1.jpg", 
+"image2.jpg", 
+"image3.jpg" 
+]; 
+ 
+let index=0; 
+ 
+function showImage(){ 
+document.getElementById("slide").src=images[index]; 
+} 
+ 
+function nextImage(){ 
+index=(index+1)%images.length; 
+showImage(); 
+} 
+ 
+function prevImage(){ 
+index=(index-1+images.length)%images.length; 
+showImage(); 
+} 
+ 
+89 
+ 
+setInterval(nextImage,3000); 
+ 
+</script> 
+ 
+</head> 
+ 
+<body onload="showImage()"> 
+ 
+<h2>Image Slider / Carousel</h2> 
+ 
+<div class="slider"> 
+<img id="slide" src=""> 
+</div> 
+ 
+<button onclick="prevImage()">Previous</button> 
+<button onclick="nextImage()">Next</button> 
+ 
+</body> 
+</html> 
